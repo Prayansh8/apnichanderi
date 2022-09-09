@@ -1,0 +1,114 @@
+@font-face {
+    font-family: 'trajan_reg';
+    src: url('font/TrajanPro-Regular.ttf');
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'trajan_reg';
+}
+
+body {
+    background-color: #fefee2;
+    width: 100%;
+    max-width: 100%;
+}
+
+.header-edit {
+    background-color: #fefee2;
+    border-bottom: 1px solid black;
+}
+
+.carousel-img {
+    z-index: -1;
+    width: 100%;
+}
+
+
+.carousel-img img {
+    width: 100%;
+    height: 400px;
+}
+
+.innerslider {
+    color: #fff;
+    margin: 3.5% auto 0;
+    text-align: center;
+}
+
+.innerslider h2 {
+    font-size: 3.5em;
+    line-height: 1.2em;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+}
+
+.innerslider p {
+    font-size: 1.8em;
+    letter-spacing: .05em;
+    line-height: 1.5em;
+    text-transform: uppercase;
+    margin-top: 1%;
+}
+
+/* after header */
+
+.tour {
+    background-image: url("./img/bg-img.png");
+    background-size: 50% auto;
+    padding: 10% 0 0;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+.heading-text {
+    margin: 0px 0px 60px 0px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.heading-text h1 {
+    font-weight: 700;
+}
+
+.heading-text h2 {
+    text-transform: uppercase;
+    text-align: center;
+    margin: 16px 0px;
+}
+
+/*  */
+
+.specific-btn {
+    width: 80%;
+    border-radius: 24px;
+    background-color: #efefd5 !important;
+    margin: 4px auto 16px auto;
+}
+
+ .card {
+    width: 48%;
+    background-color: #efefd5 !important;
+    margin: 4px;
+    height: 500px;
+}
+
+.card-title {
+    margin: 8px 0px;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.card-text {
+    font-family: 'Cambria, Cochin, Georgia, Times, Times New Roman, serif';
+    margin: 6px 0px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #818181;
+}
+
+.card-body{
+    overflow: auto;
+}
