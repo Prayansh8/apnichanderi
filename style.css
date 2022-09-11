@@ -11,14 +11,15 @@
 }
 
 body {
-    background-color: #fefee2;
     width: 100%;
     max-width: 100%;
+    background-color: #fefee2;
 }
 
-.header-edit {
-    background-color: #fefee2;
-    border-bottom: 1px solid black;
+.header{
+    background-color: #fefee4;
+    height: 100px;
+    border-bottom: 6px solid #ff8c0f;
 }
 
 .carousel-img {
@@ -111,4 +112,14 @@ body {
 
 .card-body{
     overflow: auto;
+}
+
+.w-nav1{
+    width: 32%;
+}
+.w-nav2{
+    width: 36%;
+}
+.w-nav3{
+    width: 32%;
 }
